@@ -1,0 +1,10 @@
+.scroll {
+    overflow: scroll;
+    height: 595px;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
