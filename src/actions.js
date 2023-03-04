@@ -12,7 +12,9 @@ export const setSearchFilter = (text) => ({
 
 export const requestRobots = () => (dispatch) => {
   dispatch({ type: REQUEST_ROBOTS_PENDING });
-  fetch("https://jsonplaceholder.typicode.com/users")
+  fetch(
+    "https://asia-southeast2-project-relieyan.cloudfunctions.net/api-yomafriends/users"
+  )
     .then((response) => response.json())
     .then((data) => dispatch({ type: REQUEST_ROBOTS_SUCCESS, payload: data }))
     .catch((error) =>
