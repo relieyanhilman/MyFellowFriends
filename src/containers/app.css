@@ -1,12 +1,17 @@
-@font-face {
-    font-family: 'SEGA LOGO FONT';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+@font-face{
+    font-family: 'Dream Quacker';
+    src: local('Dream Quacker'), url(../fonts/DreamQuacker.ttf) format('truetype');
 }
 
 h1 {
-    font-family: 'SEGA LOGO FONT';
-    font-weight: 200;
-    color: #0ccac4;
+    font-family: 'Dream Quacker';
+    
+    font-weight: 600;
+    color: #BDCDD6;
+}
+
+.f1{
+    font-size: 5em;
+    font-weight: 600;
+    color: #EEE9DA;
 }

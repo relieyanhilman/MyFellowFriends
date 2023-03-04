@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'Classicismo';
+    src: local('Classicismo'), url(../fonts/Classicismo.otf) format('opentype');
+}
+
+h2 {
+    font-family: 'Classicismo', 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-light-green{
+    background-color: #93BFCF;
+}
+
+

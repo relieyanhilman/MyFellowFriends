@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'Freshbot';
+    src: local('Freshbot'), url(../fonts/Freshbot.ttf) format('truetype');
+}
+
+.pa2{
+    font-family: 'Freshbot', 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.bg-lightest-blue{
+    background-color: #BDCDD6;
+}
