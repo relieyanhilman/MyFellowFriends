@@ -45,7 +45,7 @@ function App(props) {
   ) : (
     <>
       <div className="tc">
-        <h1 className="f1">My Fellow Friends</h1>
+        <h1 className="f1">YO! MA Friends</h1>
         <SearchBox searchChange={onSearchChange} />
         <Scroll>
           <ErrorBoundry>
