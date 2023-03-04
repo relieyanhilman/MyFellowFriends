@@ -1,6 +1,6 @@
 {
-    "homepage": "http://relieyan.github.io/MyFellowFriends",
-    "name": "myfellowfriends",
+    "homepage": "http://relieyan.github.io/YOMAFriends",
+    "name": "yomafriends",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
